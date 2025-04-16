@@ -328,7 +328,7 @@ function App() {
           <div className="bg-white rounded-lg overflow-hidden max-w-4xl w-full">
             <div className="relative">
               <video
-                src="course-website/images/m1/intro_m1.mp4"
+                src="/course-website/images/m1/intro_m1.mp4"
                 title="Course Introduction"
                 controls
                 autoPlay
