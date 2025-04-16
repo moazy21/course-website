@@ -1,6 +1,7 @@
 {
   "name": "vite-react-typescript-starter",
   "private": true,
+  "homepage": "https://moazy21.github.io/course-website",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
