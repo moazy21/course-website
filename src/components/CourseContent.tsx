@@ -1,4 +1,5 @@
 import React from 'react';
+import FinalExam from './FinalExam';
 
 interface Course {
   id: string;
@@ -14,7 +15,9 @@ interface CourseContentProps {
 
 const CourseContent: React.FC<CourseContentProps> = ({ course }) => {
   if (!course) return null;
-
+  if (course.id === "7-1") {
+    return <FinalExam />;
+  }
   return (
     <div className="bg-white rounded-lg overflow-hidden">
       <div className="aspect-w-16 aspect-h-9">

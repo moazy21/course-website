@@ -3,6 +3,7 @@ import { BookOpen, Video, Leaf, ChevronRight, Clock, Award, Globe, Users, Star, 
 import CourseContent from './components/CourseContent';
 import { useState, useRef } from 'react';
 
+
 const courseModules = [
   {
     id: 1,
@@ -149,6 +150,20 @@ const courseModules = [
         description: "Looks at trends like smart packaging and bio-based materials.",
         videoUrl: "https://www.youtube.com/embed/videoseries?list=PLnkKF1GDQK_HtfFfi7KyQFlRgO_qNFPO8",
         content: "Get a sneak peek at what's next for sustainable packaging design."
+      }
+    ]
+  },
+  {
+    id: 7,
+    title: "Final Exam",
+    description: "Test your knowledge of sustainable packaging",
+    courses: [
+      {
+        id: "7-1",
+        title: "Comprehensive Final Exam",
+        description: "Test covering all aspects of sustainable packaging",
+        videoUrl: "",
+        content: "Complete this exam to test your understanding of the entire course material."
       }
     ]
   }
