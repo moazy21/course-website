@@ -13,7 +13,7 @@ const courseModules = [
         id: "1-1",
         title: "What is Sustainable Packaging",
         description: "Covers definitions, evolution, characteristics, and examples of eco-friendly packaging.",
-        videoUrl: "/course-website/src/images/m1/1-1.mp4",
+        videoUrl: "/course-website/public/images/m1/1-1.mp4",
         content: "This lesson introduces what sustainable packaging means and why it matters."
       },
       {
