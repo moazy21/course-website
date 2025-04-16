@@ -13,7 +13,7 @@ const courseModules = [
         id: "1-1",
         title: "What is Sustainable Packaging",
         description: "Covers definitions, evolution, characteristics, and examples of eco-friendly packaging.",
-        videoUrl: "/src/images/m1/intro_m1.mp4",
+        videoUrl: "/course-website/src/images/m1/1-1.mp4",
         content: "This lesson introduces what sustainable packaging means and why it matters."
       },
       {
@@ -328,7 +328,7 @@ function App() {
           <div className="bg-white rounded-lg overflow-hidden max-w-4xl w-full">
             <div className="relative">
               <iframe
-                src="src/images/m1/intro_m1.mp4"
+                src="course-website/src/images/m1/intro_m1.mp4"
                 title="Course Introduction"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
