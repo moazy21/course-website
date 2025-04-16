@@ -13,7 +13,7 @@ const courseModules = [
         id: "1-1",
         title: "What is Sustainable Packaging",
         description: "Covers definitions, evolution, characteristics, and examples of eco-friendly packaging.",
-        videoUrl: "/course-website/public/images/m1/1-1.mp4",
+        videoUrl: "/course-website/images/m1/1-1.mp4",
         content: "This lesson introduces what sustainable packaging means and why it matters."
       },
       {
@@ -327,13 +327,14 @@ function App() {
         <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4">
           <div className="bg-white rounded-lg overflow-hidden max-w-4xl w-full">
             <div className="relative">
-              <iframe
-                src="course-website/src/images/m1/intro_m1.mp4"
+              <video
+                src="course-website/images/m1/intro_m1.mp4"
                 title="Course Introduction"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
+                controls
+                autoPlay
+                
                 className="w-full aspect-video"
-              ></iframe>
+              ></video>
               <button
                 onClick={() => setShowIntroVideo(false)}
                 className="absolute top-4 right-4 bg-black/50 text-white p-2 rounded-full hover:bg-black/70"
